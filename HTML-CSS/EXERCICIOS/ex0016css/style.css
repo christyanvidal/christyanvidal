@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(49, 49, 49);
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1{
+    background-color: orange;
+    font-size:xx-large;
+
+}
+h2{
+    background-color: chocolate;
+    font-size: medium;
+}
+p{
+    background-color: darkgoldenrod;
+    color: cornsilk;
+}
