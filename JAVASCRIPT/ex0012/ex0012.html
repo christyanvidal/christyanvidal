@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sistemas de <strong>Nacionalidades</strong></h1>
+  Qual País que você nasceu?
+  <input type="text" name="txtpais" id="txtpais">
+  <input type="button" value="Verificar" onclick="calcular()">
+<div id="res"></div>
+ <script>
+    function calcular(){
+    	console.log('teste')
+        var txt = window.document.querySelector('input#txtpais')
+        var res = window.document.querySelector('div#res')
+        var pais = txt.value
+        res.innerHTML = ` Você é<strong> Brasileiro</strong>`
+        if (pais != 'Brasil'){
+            res.innerHTML = `Você <strong>não</strong> é <strong>Brasileiro </strong>`
+        }
+		res.innerHTML += `, Tenha um bom ano !`
+    }
+ </script>   
+</body>
+</html>
