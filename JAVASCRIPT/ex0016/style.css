@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(53, 58, 59, 0.938);
+    font-size: 20pt;
+    
+    }
+    
+    header{
+    text-align: center;
+    
+    }
+    
+    section{
+    background: rgba(255, 255, 254, 0.781);
+    border-radius:20px ;
+    padding:25px ;
+    width:450px;
+    margin: auto;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.445);
+    }
+    
+    div{
+     text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding: 10px;
+    }
+    
+    footer{
+        text-align: center;
+        font-size:15px ;
+        font-style: italic;
+        
+    }
+    

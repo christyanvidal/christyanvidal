@@ -10,18 +10,19 @@
     <h1>Sistemas de <strong>Nacionalidades</strong></h1>
   Qual País que você nasceu?
   <input type="text" name="txtpais" id="txtpais">
-  <input type="button" value="Verificar" onclick="calcular">
+  <input type="button" value="Verificar" onclick="calcular()">
 <div id="res"></div>
  <script>
     function calcular(){
+    	console.log('teste')
         var txt = window.document.querySelector('input#txtpais')
         var res = window.document.querySelector('div#res')
-        var pais =(txt)
+        var pais = txt.value
         res.innerHTML = ` Você é<strong> Brasileiro </strong>`
-        if (pais != Brasil){
-            res.innerHTML != `Você não é Brasileiro`
+        if (pais != 'Brasil'){
+            res.innerHTML = `Você não é Brasileiro`
         }
-            res.innerHTML != `Tenha um bom ano !`
+            res.innerHTML = `Tenha um bom ano !`
     }
  </script>   
 </body>

@@ -1,0 +1,26 @@
+body{
+background-color: rgba(33, 185, 228, 0.411);
+font-size: 20pt;
+
+}
+
+header{
+text-align: center;
+
+}
+
+section{
+background: rgba(247, 183, 81, 0.781);
+border-radius:20px ;
+padding:25px ;
+width:450px;
+margin: auto;
+box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.445);
+}
+
+footer{
+    text-align: center;
+    font-size:15px ;
+    font-style: italic;
+    
+}
